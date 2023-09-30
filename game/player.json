@@ -1,0 +1,110 @@
+{
+	"layer": 1,
+	"font": "Cave-Story.ttf",
+	"text": "@",
+	"width": 32,
+	"height": 32,
+	"shape": "box",
+	"events": {
+		"keyp_w": [
+			{
+				"type": "move",
+				"x": 0,
+				"y": -2,
+				"relative": true
+			}
+		],
+		"keyp_a": [
+			{
+				"type": "move",
+				"x": -2,
+				"y": 0,
+				"relative": true
+			}
+		],
+		"keyp_s": [
+			{
+				"type": "move",
+				"x": 0,
+				"y": 2,
+				"relative": true
+			}
+		],
+		"keyp_d": [
+			{
+				"type": "move",
+				"x": 2,
+				"y": 0,
+				"relative": true
+			}
+		],
+		"keyp_wd": [
+			{
+				"type": "move",
+				"x": 1.5,
+				"y": -1.5,
+				"relative": true
+			}
+		],
+		"keyp_sd": [
+			{
+				"type": "move",
+				"x": 1.5,
+				"y": 1.5,
+				"relative": true
+			}
+		],
+		"keyp_as": [
+			{
+				"type": "move",
+				"x": -1.5,
+				"y": 1.5,
+				"relative": true
+			}
+		],
+		"keyp_wa": [
+			{
+				"type": "move",
+				"x": -1.5,
+				"y": -1.5,
+				"relative": true
+			}
+		],
+		"key_up": [
+			{
+				"type": "spawn",
+				"object": "bullet_up.json",
+				"x": 0,
+				"y": -25,
+				"relative": true
+			}
+		],
+		"key_right": [
+			{
+				"type": "spawn",
+				"object": "bullet_right.json",
+				"x": 25,
+				"y": 0,
+				"relative": true
+			}
+		],
+		"key_down": [
+			{
+				"type": "spawn",
+				"object": "bullet_down.json",
+				"x": 0,
+				"y": 25,
+				"relative": true
+			}
+		],
+		"key_left": [
+			{
+				"type": "spawn",
+				"object": "bullet_left.json",
+				"x": -25,
+				"y": 0,
+				"relative": true
+			}
+		]
+	}
+}

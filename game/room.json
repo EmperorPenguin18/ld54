@@ -5,6 +5,23 @@
 			{
 				"type": "lua",
 				"function": "create_room"
+			},
+			{
+				"type": "spawn",
+				"object": "player.json",
+				"x": 384,
+				"y": 384,
+				"relative": false
+			}
+		],
+		"quit": [
+			{
+				"type": "close"
+			}
+		],
+		"key_f1": [
+			{
+				"type": "reload"
 			}
 		]
 	}

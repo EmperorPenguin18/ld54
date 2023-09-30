@@ -1,0 +1,30 @@
+{
+	"layer": 2,
+	"sprite": "player.png",
+	"shape": "box",
+	"width": 16,
+	"height": 16,
+	"events": {
+		"creation": [
+			{
+				"type": "speed",
+				"h": 100,
+				"v": 0
+			},
+			{
+				"type": "rotation",
+				"angle": 90
+			}
+		],
+		"collision": [
+			{
+				"type": "destroy"
+			}
+		],
+		"leave": [
+			{
+				"type": "destroy"
+			}
+		]
+	}
+}
