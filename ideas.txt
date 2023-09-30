@@ -1,0 +1,16 @@
+Theme: Limited Space
+
+Idea 1:
+- Single room top-down shooter where the walls are coming in, you have to kill enemies but also expand room
+- Shrinking room pushes enemies towards you
+
+Idea 2:
+- Driving game where you are on a cliff side swervy road and have to avoid falling off
+- Fast paced, as the game progresses more oncoming traffic spawns and you speed up
+
+Idea 3:
+- Black friday shopping, need to buy everything while getting through swarm
+- Sooner you get stuff the better deal, final score is how much you spent
+
+Idea 4:
+- Escape room

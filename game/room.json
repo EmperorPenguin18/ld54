@@ -1,0 +1,11 @@
+{
+	"layer": 0,
+	"events": {
+		"creation": [
+			{
+				"type": "lua",
+				"function": "create_room"
+			}
+		]
+	}
+}
