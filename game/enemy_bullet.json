@@ -1,0 +1,26 @@
+{
+	"layer": 2,
+	"font": "Cave-Story.ttf",
+	"text": "o",
+	"width": 16,
+	"height": 16,
+	"shape": "box",
+	"collision_type": 4,
+	"events": {
+		"leave": [
+			{
+				"type": "destroy"
+			}
+		],
+		"collision_1": [
+			{
+				"type": "destroy"
+			}
+		],
+		"collision_2": [
+			{
+				"type": "destroy"
+			}
+		]
+	}
+}

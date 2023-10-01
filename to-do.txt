@@ -10,10 +10,10 @@ Saturday:
 - Enemy multipling
 - Enemy shooting
 - Collisions + death
-- Player frames
-- Player bullet cooldown
 
 Sunday:
+- Player frames
+- Player bullet cooldown
 - Sprites
 - Sound effects
 - Score / timer

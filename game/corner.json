@@ -3,5 +3,6 @@
 	"width": 64,
 	"height": 64,
 	"shape": "wall",
-	"sprite": "corner.png"
+	"sprite": "corner.png",
+	"collision_type": 2
 }

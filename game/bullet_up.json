@@ -4,6 +4,7 @@
 	"shape": "box",
 	"width": 16,
 	"height": 16,
+	"collision_type": 1,
 	"events": {
 		"creation": [
 			{
@@ -16,7 +17,12 @@
 				"angle": 0
 			}
 		],
-		"collision": [
+		"collision_2": [
+			{
+				"type": "destroy"
+			}
+		],
+		"collision_3": [
 			{
 				"type": "destroy"
 			}

@@ -5,7 +5,18 @@
 	"width": 32,
 	"height": 32,
 	"shape": "box",
+	"collision_type": 0,
 	"events": {
+		"collision_3": [
+			{
+				"type": "destroy"
+			}
+		],
+		"collision_4": [
+			{
+				"type": "destroy"
+			}
+		],
 		"keyp_w": [
 			{
 				"type": "speed",

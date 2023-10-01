@@ -4,6 +4,7 @@
 	"height": 64,
 	"shape": "wall",
 	"sprite": "wall.png",
+	"collision_type": 2,
 	"events": {
 		"creation": [
 			{

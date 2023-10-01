@@ -8,6 +8,10 @@
 				"h": 768
 			},
 			{
+				"type": "lua",
+				"function": "gen_seed"
+			},
+			{
 				"type": "spawn",
 				"object": "player.json",
 				"x": 384,
@@ -73,7 +77,12 @@
 			{
 				"type": "timer",
 				"num": 0,
-				"time": 2
+				"time": 5
+			},
+			{
+				"type": "timer",
+				"num": 1,
+				"time": 5
 			}
 		],
 		"timer_0": [
@@ -108,7 +117,14 @@
 			{
 				"type": "timer",
 				"num": 0,
-				"time": 2
+				"time": 10
+			}
+		],
+		"timer_1": [
+			{
+				"type": "timer",
+				"num": 1,
+				"time": 5
 			}
 		],
 		"quit": [
