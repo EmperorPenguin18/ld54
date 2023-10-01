@@ -1,0 +1,15 @@
+{
+	"layer": 1,
+	"width": 640,
+	"height": 64,
+	"shape": "wall",
+	"sprite": "wall.png",
+	"events": {
+		"creation": [
+			{
+				"type": "rotation",
+				"angle": 0
+			}
+		]
+	}
+}

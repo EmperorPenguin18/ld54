@@ -8,66 +8,58 @@
 	"events": {
 		"keyp_w": [
 			{
-				"type": "move",
-				"x": 0,
-				"y": -2,
-				"relative": true
+				"type": "speed",
+				"h": 0,
+				"v": -100
 			}
 		],
 		"keyp_a": [
 			{
-				"type": "move",
-				"x": -2,
-				"y": 0,
-				"relative": true
+				"type": "speed",
+				"h": -100,
+				"v": 0
 			}
 		],
 		"keyp_s": [
 			{
-				"type": "move",
-				"x": 0,
-				"y": 2,
-				"relative": true
+				"type": "speed",
+				"h": 0,
+				"v": 100
 			}
 		],
 		"keyp_d": [
 			{
-				"type": "move",
-				"x": 2,
-				"y": 0,
-				"relative": true
+				"type": "speed",
+				"h": 100,
+				"v": 0
 			}
 		],
 		"keyp_wd": [
 			{
-				"type": "move",
-				"x": 1.5,
-				"y": -1.5,
-				"relative": true
+				"type": "speed",
+				"h": 75,
+				"v": -75
 			}
 		],
 		"keyp_sd": [
 			{
-				"type": "move",
-				"x": 1.5,
-				"y": 1.5,
-				"relative": true
+				"type": "speed",
+				"h": 75,
+				"v": 75
 			}
 		],
 		"keyp_as": [
 			{
-				"type": "move",
-				"x": -1.5,
-				"y": 1.5,
-				"relative": true
+				"type": "speed",
+				"h": -75,
+				"v": 75
 			}
 		],
 		"keyp_wa": [
 			{
-				"type": "move",
-				"x": -1.5,
-				"y": -1.5,
-				"relative": true
+				"type": "speed",
+				"h": -75,
+				"v": -75
 			}
 		],
 		"key_up": [
@@ -104,6 +96,34 @@
 				"x": -25,
 				"y": 0,
 				"relative": true
+			}
+		],
+		"keyr_w": [
+			{
+				"type": "speed",
+				"h": 0,
+				"v": 0
+			}
+		],
+		"keyr_a": [
+			{
+				"type": "speed",
+				"h": 0,
+				"v": 0
+			}
+		],
+		"keyr_s": [
+			{
+				"type": "speed",
+				"h": 0,
+				"v": 0
+			}
+		],
+		"keyr_d": [
+			{
+				"type": "speed",
+				"h": 0,
+				"v": 0
 			}
 		]
 	}

@@ -1,0 +1,7 @@
+{
+	"layer": 1,
+	"width": 64,
+	"height": 64,
+	"shape": "wall",
+	"sprite": "corner.png"
+}

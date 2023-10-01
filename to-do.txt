@@ -1,0 +1,21 @@
+Friday (Done):
+- Last bit of coding
+- Idea generation
+
+Saturday:
+- Basic player
+- Room setup
+- Fix mushy wall collision
+- Enemy spawning
+- Enemy multipling
+- Enemy shooting
+- Collisions + death
+- Player frames
+- Player bullet cooldown
+
+Sunday:
+- Sprites
+- Sound effects
+- Score / timer
+- Music
+- Submission!
