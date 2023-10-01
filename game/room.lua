@@ -1,6 +1,7 @@
 function create_room(e, instance)
 	math.randomseed(os.time())
 	action(e, instance, '"type": "window", "w": 768, "h": 768')
+	action(e, instance, '"type": "music", "file": "music.ogg"')
 	local player = spawn(e, instance, "player.json", 384, 384, false)
 	local corner_tl = spawn(e, instance, "corner.json", 32, 32, false)
 	action(e, corner_tl, '"type": "rotation", "angle": 0')

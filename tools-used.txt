@@ -1,4 +1,5 @@
 Font: https://fontlibrary.org/en/font/cave-story
 Art: Aseprite
 Engine: Custom
-
+Sound effects: Sfxr
+Music: LMMS

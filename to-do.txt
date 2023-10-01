@@ -16,6 +16,5 @@ Sunday:
 - Player bullet cooldown
 - Sprites
 - Sound effects + Music
-- Score / timer
 - Balancing / polishing
 - Submission!

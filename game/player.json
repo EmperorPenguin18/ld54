@@ -8,10 +8,18 @@
 	"events": {
 		"collision_3": [
 			{
+				"type": "sound",
+				"file": "death.wav"
+			},
+			{
 				"type": "destroy"
 			}
 		],
 		"collision_4": [
+			{
+				"type": "sound",
+				"file": "death.wav"
+			},
 			{
 				"type": "destroy"
 			}

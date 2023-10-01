@@ -46,6 +46,10 @@
 		],
 		"collision_1": [
 			{
+				"type": "sound",
+				"file": "kill.wav"
+			},
+			{
 				"type": "destroy"
 			}
 		]

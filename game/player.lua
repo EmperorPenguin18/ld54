@@ -81,6 +81,7 @@ end
 function shoot_up(e, instance)
 	if (can_shoot == true)
 	then
+		action(e, instance, '"type": "sound", "file": "shoot.wav"')
 		local bullet = spawn(e, instance, "bullet_up.json", 0, -25, true)
 		can_shoot = false
 		action(e, instance, '"type": "timer", "num": 2, "time": 0.25')
@@ -92,6 +93,7 @@ end
 function shoot_right(e, instance)
 	if (can_shoot == true)
 	then
+		action(e, instance, '"type": "sound", "file": "shoot.wav"')
 		local bullet = spawn(e, instance, "bullet_right.json", 25, 0, true)
 		can_shoot = false
 		action(e, instance, '"type": "timer", "num": 2, "time": 0.25')
@@ -103,6 +105,7 @@ end
 function shoot_down(e, instance)
 	if (can_shoot == true)
 	then
+		action(e, instance, '"type": "sound", "file": "shoot.wav"')
 		local bullet = spawn(e, instance, "bullet_down.json", 0, 25, true)
 		can_shoot = false
 		action(e, instance, '"type": "timer", "num": 2, "time": 0.25')
@@ -114,6 +117,7 @@ end
 function shoot_left(e, instance)
 	if (can_shoot == true)
 	then
+		action(e, instance, '"type": "sound", "file": "shoot.wav"')
 		local bullet = spawn(e, instance, "bullet_left.json", -25, 0, true)
 		can_shoot = false
 		action(e, instance, '"type": "timer", "num": 2, "time": 0.25')

@@ -12,6 +12,10 @@
 		],
 		"timer_0": [
 			{
+				"type": "sound",
+				"file": "spawn.wav"
+			},
+			{
 				"type": "spawn",
 				"object": "enemy.json",
 				"x": 128,
