@@ -21,6 +21,11 @@
 			{
 				"type": "destroy"
 			}
+		],
+		"timer_1": [
+			{
+				"type": "destroy"
+			}
 		]
 	}
 }

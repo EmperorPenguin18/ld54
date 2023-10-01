@@ -17,11 +17,21 @@
 				"type": "destroy"
 			}
 		],
+		"timer_2": [
+			{
+				"type": "lua",
+				"function": "player_timer"
+			}
+		],
 		"keyp_w": [
 			{
 				"type": "speed",
 				"h": 0,
 				"v": -100
+			},
+			{
+				"type": "lua",
+				"function": "move_up"
 			}
 		],
 		"keyp_a": [
@@ -29,6 +39,10 @@
 				"type": "speed",
 				"h": -100,
 				"v": 0
+			},
+			{
+				"type": "lua",
+				"function": "move_left"
 			}
 		],
 		"keyp_s": [
@@ -36,6 +50,10 @@
 				"type": "speed",
 				"h": 0,
 				"v": 100
+			},
+			{
+				"type": "lua",
+				"function": "move_down"
 			}
 		],
 		"keyp_d": [
@@ -43,6 +61,10 @@
 				"type": "speed",
 				"h": 100,
 				"v": 0
+			},
+			{
+				"type": "lua",
+				"function": "move_right"
 			}
 		],
 		"keyp_wd": [
@@ -75,38 +97,26 @@
 		],
 		"key_up": [
 			{
-				"type": "spawn",
-				"object": "bullet_up.json",
-				"x": 0,
-				"y": -25,
-				"relative": true
+				"type": "lua",
+				"function": "shoot_up"
 			}
 		],
 		"key_right": [
 			{
-				"type": "spawn",
-				"object": "bullet_right.json",
-				"x": 25,
-				"y": 0,
-				"relative": true
+				"type": "lua",
+				"function": "shoot_right"
 			}
 		],
 		"key_down": [
 			{
-				"type": "spawn",
-				"object": "bullet_down.json",
-				"x": 0,
-				"y": 25,
-				"relative": true
+				"type": "lua",
+				"function": "shoot_down"
 			}
 		],
 		"key_left": [
 			{
-				"type": "spawn",
-				"object": "bullet_left.json",
-				"x": -25,
-				"y": 0,
-				"relative": true
+				"type": "lua",
+				"function": "shoot_left"
 			}
 		],
 		"keyr_w": [
