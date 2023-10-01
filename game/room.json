@@ -46,7 +46,7 @@
 			{
 				"type": "timer",
 				"num": 0,
-				"time": 10
+				"time": 5
 			}
 		],
 		"timer_1": [

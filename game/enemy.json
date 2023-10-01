@@ -24,18 +24,8 @@
 		],
 		"timer_0": [
 			{
-				"type": "spawn",
-				"object": "enemy.json",
-				"x": 1,
-				"y": 0,
-				"relative": true
-			},
-			{
-				"type": "spawn",
-				"object": "enemy.json",
-				"x": 0,
-				"y": 1,
-				"relative": true
+				"type": "lua",
+				"function": "multiply"
 			}
 		],
 		"timer_1": [
