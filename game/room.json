@@ -1,88 +1,13 @@
 {
 	"layer": 0,
+	"width": 768,
+	"height": 768,
+	"sprite": "floor.png",
 	"events": {
 		"creation": [
 			{
-				"type": "window",
-				"w": 768,
-				"h": 768
-			},
-			{
 				"type": "lua",
-				"function": "gen_seed"
-			},
-			{
-				"type": "spawn",
-				"object": "player.json",
-				"x": 384,
-				"y": 384,
-				"relative": false
-			},
-			{
-				"type": "spawn",
-				"object": "corner.json",
-				"x": 32,
-				"y": 32,
-				"relative": false
-			},
-			{
-				"type": "spawn",
-				"object": "corner.json",
-				"x": 736,
-				"y": 32,
-				"relative": false
-			},
-			{
-				"type": "spawn",
-				"object": "corner.json",
-				"x": 736,
-				"y": 736,
-				"relative": false
-			},
-			{
-				"type": "spawn",
-				"object": "corner.json",
-				"x": 32,
-				"y": 736,
-				"relative": false
-			},
-			{
-				"type": "spawn",
-				"object": "wall_t.json",
-				"x": 384,
-				"y": 32,
-				"relative": false
-			},
-			{
-				"type": "spawn",
-				"object": "wall_r.json",
-				"x": 736,
-				"y": 384,
-				"relative": false
-			},
-			{
-				"type": "spawn",
-				"object": "wall_b.json",
-				"x": 384,
-				"y": 736,
-				"relative": false
-			},
-			{
-				"type": "spawn",
-				"object": "wall_l.json",
-				"x": 32,
-				"y": 384,
-				"relative": false
-			},
-			{
-				"type": "timer",
-				"num": 0,
-				"time": 5
-			},
-			{
-				"type": "timer",
-				"num": 1,
-				"time": 5
+				"function": "create_room"
 			}
 		],
 		"timer_0": [

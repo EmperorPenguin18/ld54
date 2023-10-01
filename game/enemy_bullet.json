@@ -1,12 +1,27 @@
 {
 	"layer": 2,
-	"font": "Cave-Story.ttf",
-	"text": "o",
+	"sprite": "enemy_bullet.png",
 	"width": 16,
 	"height": 16,
 	"shape": "box",
 	"collision_type": 4,
 	"events": {
+		"creation": [
+			{
+				"type": "animation",
+				"start": 0,
+				"end": 2,
+				"time": 0.1
+			}
+		],
+		"animation_complete": [
+			{
+				"type": "animation",
+				"start": 0,
+				"end": 2,
+				"time": 0.1
+			}
+		],
 		"leave": [
 			{
 				"type": "destroy"

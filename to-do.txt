@@ -15,7 +15,7 @@ Sunday:
 - Player frames
 - Player bullet cooldown
 - Sprites
-- Sound effects
+- Sound effects + Music
 - Score / timer
-- Music
+- Balancing / polishing
 - Submission!

@@ -6,6 +6,22 @@
 	"sprite": "enemy.png",
 	"collision_type": 3,
 	"events": {
+		"creation": [
+			{
+				"type": "animation",
+				"start": 0,
+				"end": 5,
+				"time": 0.3
+			}
+		],
+		"animation_complete": [
+			{
+				"type": "animation",
+				"start": 0,
+				"end": 5,
+				"time": 0.3
+			}
+		],
 		"timer_0": [
 			{
 				"type": "spawn",

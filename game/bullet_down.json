@@ -1,6 +1,6 @@
 {
 	"layer": 2,
-	"sprite": "player.png",
+	"sprite": "bullet.png",
 	"shape": "box",
 	"width": 16,
 	"height": 16,
@@ -15,6 +15,20 @@
 			{
 				"type": "rotation",
 				"angle": 180
+			},
+			{
+				"type": "animation",
+				"start": 0,
+				"end": 2,
+				"time": 0.1
+			}
+		],
+		"animation_complete": [
+			{
+				"type": "animation",
+				"start": 0,
+				"end": 2,
+				"time": 0.1
 			}
 		],
 		"collision_2": [
